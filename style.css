@@ -1,0 +1,105 @@
+*{
+    font-family: Urbanist, sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #b38600;
+  padding: 1rem 1rem 1 rem 1 rem;
+}
+
+h3{
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+
+
+/* banner*/
+
+.banner{
+ display: block;
+ height: 15rem;
+ width: 100%;
+}
+
+.banner img{
+  float: left;
+  margin-left: 1.5rem; 
+  width: 15rem;
+  height: auto;
+
+}
+
+h1{
+  padding-top: 4.5rem;
+padding-left: 25%;
+font-family: 'Kalam', cursive;
+}
+
+
+
+
+
+/* skills section */
+
+
+.skillscontainer{
+  
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+ flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+
+}
+
+.skills img {
+  width: 15rem;
+  height: 15rem;
+  display: inline-flex;
+  flex-direction: column;
+} 
+
+
+
+/* about me section*/
+
+.about{
+  display: flex;
+background-image: url("../images/marble.jpg");
+background-size: cover;
+height: 30rem;
+width: 100%;
+align-items: center;
+
+}
+
+.aboutme{
+  margin-top: 3rem;
+  background-color: white;
+  text-align: center;
+ 
+}
+
+
+/* footer */
+
+.footer{
+  display: flex;
+
+ 
+}
+
+.contact{
+  line-height: 0.5rem;
+text-align: center;
+}
